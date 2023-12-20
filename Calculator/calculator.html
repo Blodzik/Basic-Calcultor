@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="calculator.css">
+    </head>
+    <body>
+        <div>
+            <div class="js-calculation calculation-display"></div>
+            <div>
+                <button class="gray-buttons" onclick="clearCalculation()">C</button>
+                <button class="gray-buttons" onclick="negativeCalculation()">-</button>
+                <button class="gray-buttons" onclick="percentegeCalculation()">%</button>
+                <button class="orange-buttons" onclick="updateCalculation(' / ')">&#xF7;</button>
+            </div>
+            <div>
+                <button class="black-buttons" onclick="updateCalculation('7')">7</button>
+                <button class="black-buttons" onclick="updateCalculation('8')">8</button>
+                <button class="black-buttons" onclick="updateCalculation('9')">9</button>
+                <button class="orange-buttons"  onclick="updateCalculation(' * ')">&times;</button>
+            </div>
+            <div>
+                <button class="black-buttons" onclick="updateCalculation('4')">4</button>
+                <button class="black-buttons" onclick="updateCalculation('5')">5</button>
+                <button class="black-buttons" onclick="updateCalculation('6')">6</button>
+                <button class="orange-buttons" onclick="updateCalculation(' - ')">-</button>
+            </div>
+            <div>
+                <button class="black-buttons" onclick="updateCalculation('1')">1</button>
+                <button class="black-buttons" onclick="updateCalculation('2')">2</button>
+                <button class="black-buttons" onclick="updateCalculation('3')">3</button>
+                <button class="orange-buttons " onclick="updateCalculation(' + ')">+</button>
+            </div>
+            <div>
+                <button class="zero-button"onclick="updateCalculation('0')">0</button>
+                <button class="black-buttons"onclick="updateCalculation('.')">&#44;</button>
+                <button class="orange-buttons" onclick="calculateResult()">=</button>
+            </div>
+        </div>
+        <script src="calculator.js"></script>
+    </body>
+</html>
