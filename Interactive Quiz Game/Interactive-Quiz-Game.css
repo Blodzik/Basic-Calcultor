@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+    background-color: #fbe3e8;
+    display: flex;
+    justify-content: center;
+}
+
+div {
+    margin-bottom: 10px;    
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    font-size: 20px;
+    background-color: #5cbdb9;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.question {
+    font-size: 25px;
+    margin-bottom: 25px;
+}
+
+.result {
+    font-size: 25px;
+}
