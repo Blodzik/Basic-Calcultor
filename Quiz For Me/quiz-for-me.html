@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Quiz for me</title>
+        <link rel="stylesheet" href="quiz-for-me.css">
+    </head>
+    <body>
+        <div class="title">Quiz Time!</div>
+        
+        <div class="quiz-container">
+            <div class="questions-answers">
+                <label class="label" for="question">Question:</label>
+                <input type="text" class="question" placeholder="Type questions here">
+            
+                <label class="label" for="answer">Answer:</label>
+                <input type="text" class="answer" placeholder="Type answer here">          
+
+                <button onclick="addQuestion();" class="button">Add questions</button>
+            </div>
+            
+            <div class="created-questions"></div>
+
+            <div>
+                <button onclick="startQuiz();" class="button">Start quiz</button>
+                <button onclick="resetQuiz();" class="button">New quiz</button>
+            </div>
+
+            <p class="result"></p>
+        </div>
+
+        <script src="quiz-for-me.js"></script>      
+    </body>    
+</html>
