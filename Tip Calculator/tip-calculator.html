@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tip Calculator</title>
+        <link rel="stylesheet" href="tip-calculator.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <h1>Tip Calculator</h1>
+            </div>
+            <div class="enter-row">
+                <span class="currency">$</span>
+                <input placeholder="Total Bill" class="enter-price" type="number">
+            </div>
+            <div class="percentage-row">
+                <span>Tip:</span>
+                <input type="range" id="range" min="0" max="100" value="0">
+                <span id="range-span"></span>
+            </div>
+            <div class="results">
+                <h3>Results</h3>
+            </div>
+            <div class="tip-amount-row">
+                <span class="tip-amount">Tip amount</span>
+                <span class="tip-amount-input"></span>
+            </div>
+            <div class="total-row">
+                <span class="total-span">Total Bill with Tip</span>
+                <span class="total-input"></span>
+            </div>
+        </div>
+        <script src="tip-calculator.js"></script>
+    </body>
+</html>
