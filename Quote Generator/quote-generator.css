@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+body {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: #bbc6fa;
+    color: black;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 70px;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.15);
+    width: 550px;
+}
+
+.title {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.title h2::after {
+    content: '';
+    width: 120px;
+    height: 3px;
+    border-radius: 3px;
+    background: rgb(23, 124, 229);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.quote {
+    font-size: 20px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+.author {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    font-size: 15px;
+    margin-bottom: 35px;
+}
+
+.new-quote {
+    background-color: rgb(68, 68, 255);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.tweet {
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    margin-right: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.tweet img {
+    width: 25px;
+    vertical-align: middle;
+}
