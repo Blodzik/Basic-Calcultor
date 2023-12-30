@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dictionary App</title>
+        <link rel="stylesheet" href="dictionary.css">
+    </head>
+    <body>
+        <div class="container">
+            <h2>English Dictionary</h2>
+            <div class="input-cont">
+                <input type="text" placeholder="Search a word" id="input" style="text-align: left;">
+                <span id="disp">Type any existing word and press enter to get meaning, example, synonyms, etc.</span>
+            </div>  
+            <div class="result-container">
+                <div id="word"></div>
+                <div id="type"></div>
+                <div class="info">
+                    <div class="meaning-cont">
+                        <h3>Meaning</h3>
+                        <div id="meaning" class="inf"></div>
+                    </div>
+                    <div class="example-cont">
+                        <h3>Example</h3>
+                        <div id="example" class="inf"></div>
+                    </div>    
+                    <div class="synonyms-cont">
+                        <h3>Synonyms</h3>
+                        <div id="synonyms" class="inf"></div>
+                    </div>              
+                </div>
+            </div>
+        </div>   
+        <script src="dictionary.js"></script>
+    </body>
+</html>
