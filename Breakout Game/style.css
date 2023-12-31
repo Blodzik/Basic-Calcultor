@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Quantico:wght@400;700&display=swap');
+
+body {
+    position: absolute;
+    top: 10%;
+    left: 35%;
+    transform: translate(-70%, -30%);
+    font-family: 'Quantico', sans-serif;
+    background-color: #e5e5e5;
+}
+
+.container {
+    
+}
+
+.grid {
+    position: absolute;
+    width: 560px;
+    height: 300px;
+    border: solid black 1px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.block {
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    position: absolute;
+}
+
+.user {
+    width: 100px;
+    height: 20px;
+    background-color: purple;
+    position: absolute;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: red;
+}
+
+#score {
+    font-size: 30px;
+}
+
+#result {
+    color: white;
+    font-size: 30px;
+    display: none;
+}
+
+#again {
+    color: white;
+    font-size: 19px;
+}
